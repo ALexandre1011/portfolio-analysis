@@ -85,16 +85,6 @@ $$
 Cost_t = Turnover_t \times cost\ rate
 $$
 
-### Beta stress test
-
-The benchmark stress estimate uses a linear approximation:
-
-$$
-R_p^{stress} \approx \beta_p R_m^{stress}
-$$
-
-This estimate assumes that the historical beta remains stable during the stressed scenario.
-
 ## Running app
 
 ### Requirements
@@ -107,20 +97,6 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run app.py
-```
-
-## Running tests
-
-### Requirements
-
-```bash
-pip install -r requirements-dev.txt
-```
-
-### Run
-
-```bash
-python -m pytest -v
 ```
 
 ## Technology stack
