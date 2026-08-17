@@ -1,4 +1,4 @@
-# French Portfolio Analytics Dashboard
+# Portfolio Analytics Dashboard
 
 Interactive portfolio analytics dashboard for Eurozone blue-chip companies stocks, retrieved with `yfinance`. The application lets construct a portfolio, compare periodic rebanlancing strategy/buy an hold strategy to an Euro Stoxx 50 ETF benchmark, and analyze performance, risk, attribution within a configurable analysis time lapse. The application allows optional transaction costs at each rebalancing date based on traded notional.
 The ETF tracks the performance of the Euro Stoxx 50 net return index and assumes that gross dividends are reinvested in the index.
@@ -85,16 +85,6 @@ $$
 Cost_t = Turnover_t \times cost\ rate
 $$
 
-### Beta stress test
-
-The benchmark stress estimate uses a linear approximation:
-
-$$
-R_p^{stress} \approx \beta_p R_m^{stress}
-$$
-
-This estimate assumes that the historical beta remains stable during the stressed scenario.
-
 ## Running app
 
 ### Requirements
@@ -107,20 +97,6 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run app.py
-```
-
-## Running tests
-
-### Requirements
-
-```bash
-pip install -r requirements-dev.txt
-```
-
-### Run
-
-```bash
-python -m pytest -v
 ```
 
 ## Technology stack
