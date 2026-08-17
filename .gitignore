@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+.pytest_cache/
+.vscode/
+STOCKS_BY_COUNTRY.py
+stoxx_europe_600.csv
