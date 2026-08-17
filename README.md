@@ -1,4 +1,4 @@
-# French Portfolio Analytics Dashboard
+# Portfolio Analytics Dashboard
 
 Interactive portfolio analytics dashboard for Eurozone blue-chip companies stocks, retrieved with `yfinance`. The application lets construct a portfolio, compare periodic rebanlancing strategy/buy an hold strategy to an Euro Stoxx 50 ETF benchmark, and analyze performance, risk, attribution within a configurable analysis time lapse. The application allows optional transaction costs at each rebalancing date based on traded notional.
 The ETF tracks the performance of the Euro Stoxx 50 net return index and assumes that gross dividends are reinvested in the index.
